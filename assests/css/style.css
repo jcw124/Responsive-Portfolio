@@ -205,24 +205,22 @@ h4 {
     padding: 20px 0;
 }
 @media (max-width: 640px) {
-    header{
-        float: left;
-		width: 100%;
-		margin-bottom: 0;
-		text-align: center;
-		font-weight: bold;
-		vertical-align: middle;
-		padding-top: 3%;
-		margin-left: 0%;
-    }
-    nav{
-        clear: both;
-		width: 100%;
-		text-align: center;
-		float: left;
-    }
     body{
-        width:50%;
+        min-width: 640px
+    }
+    .content{
+        min-width: 50%;
+    }
+    .main{
+     width: 50%;
+    }
+   aside{
+    width: 50%;
+ }
+   section{
+       float: left;
+       overflow: unset;
+       width: 50%;
     }
 }
 @media (max-width: 768px) {
