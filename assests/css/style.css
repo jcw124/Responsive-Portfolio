@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url("../images/confectionary.png");
+    background-repeat: repeat;
+    min-width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 67px;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color:#666666;
+    color: white;
+    text-align: center;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    padding-top: 15pt;  
+}
+h1{
+    color:#4aaaa5;
+    font-size: 25px;
+    border-bottom: 2px solid#a5a5a5;
+    padding-bottom: 10px;
+}
+   h2{
+       text-align: center;
+       color: #4aaaa5;
+       font-size: 20px;
+       border-bottom: 2px solid #a5a5a5;
+    padding-bottom: 10px;
+}
+content{
+    width: 960px;
+    margin: 0 auto;
+}   
+.name{
+    background-color: #4aaaa5;
+    padding: 20px;
+    float: left;
+    color: white;
+    font-size: 25px;
+}
+#profilepic{
+    height: 250px;
+    width: 250px;
+    float: left;
+    padding: 15px;
+}
+.main{
+    background-color: #ffffff;
+    width: 650px;
+    float: left;
+    padding: 20px;
+    border-color:#dddddd;
+    border-style: solid;
+    border-width: 1pt;
+    margin-top:20px;
+    overflow: auto;
+    }
+.content{
+    width: 960px;
+    margin: 0px auto;
+    color:  #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+   
+p{
+    overflow: auto;
+    }
+.images img{
+    margin-top:30px;
+    width: 60px; 
+    border: none;
+    }
+nav{
+    padding-top: 23px;
+    float: right;
+    }
+ul, li {
+    color: #a5a5a5;
+    display: inline;
+    font-weight: 100;
+    }
+aside{
+    width: 270px;
+    background-color: white;
+    float: right;
+    overflow: auto;
+    display: block;
+    margin-top: 25px;
+    padding: 20px;
+    }
+#aboutme{
+}
+/* #images img{
+    margin-top:30px;
+    width: 60px; 
+    border: none;
+    } */
+form{
+        width: 500px;
+        overflow: auto;
+        position: relative;
+    }
+input[type=submit] {
+        background-color:  #4aaaa5;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0 20px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    p{
+        padding: 20px;
+    }
+input[type=submit] {
+    background-color:  #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#message {
+    min-height: 150px;
+}
+#hangman {
+    background-image:url("../images/abstract-q-c-250-250-1.jpg");
+    float: left;
+    padding-top:150px;
+        text-align: center;
+        width: 48%;
+        height: 220px;
+        margin-top: 30px;
+        background-position: center;
+        background-size: cover;
+    }
+#rpg {
+    background-image:url("../images/abstract-q-c-250-250-1.jpg");
+    float:right;
+    padding-top:150px;
+    text-align: center;
+    width: 48%;
+    height: 220px;
+    margin-top: 30px;
+    background-position: center;
+    background-size: cover;
+    }
+#trivia {
+    background-image:url("../images/abstract-q-c-250-250-1.jpg");
+    float: left;
+    padding-top:150px;
+    text-align: center;
+    width: 48%;
+    height: 220px;
+    margin-top: 30px;
+    background-position: center;
+    background-size: cover;
+    }
+#rutgers {
+        background-image:url("../images/abstract-q-c-250-250-1.jpg");
+        float: right;
+        padding-top:150px;
+        text-align: center;
+        width: 48%;
+        height: 220px;
+        margin-top: 30px;
+        background-position: center;
+        background-size: cover;
+    }
+#rps{
+    background-image:url("../images/abstract-q-c-250-250-1.jpg");
+    float: left;
+    padding-top:150px;
+    text-align: center;
+    width: 48%;
+    height: 220px;
+    margin-top: 30px;
+    background-position: center;
+    background-size: cover;
+    }
+h4 {
+    font-size: 20px;
+     color: #fff;
+     background-color: #4aaaa5;
+    padding: 20px 0;
+}
